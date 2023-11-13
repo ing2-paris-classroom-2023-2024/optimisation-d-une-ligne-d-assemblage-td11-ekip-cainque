@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.26)
-project(optimisation_d_une_ligne_d_assemblage_td11_ekip_cainque C)
+cmake_minimum_required(VERSION 3.23)
+project(Ligne_assemblage C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(optimisation_d_une_ligne_d_assemblage_td11_ekip_cainque
+add_executable(Ligne_assemblage
         main.c)

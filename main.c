@@ -1,9 +1,6 @@
-
 #include "stdio.h"
 #include "stdlib.h"
-#include "string.h"
 
-int main() {
-    printf("tete de neuil frrrrr");
+int main(){
+    printf("d");
 }
-
