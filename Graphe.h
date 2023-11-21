@@ -2,10 +2,13 @@
 #define LIGNE_ASSEMBLAGE_GRAPHE_H
 
 typedef struct Sommet{
+    int valeur;
     int Liste_Contrainte;
+    int contrainte_actu;
     int Liste_ope_pres;
-    int Etape_debut; //1 oui, 0 non
-    int Etape_fin; //1 oui, 0 non
+    int color;
+    float debut;
+    float fin;
 }Sommet;
 
 typedef struct Arc{
@@ -19,6 +22,7 @@ typedef struct Graphe{
     int ordre;
     Arc* Liste_Arc;
     float duree_tot;
+    float duree_max;
 }Graphe;
 
 

@@ -4,10 +4,8 @@
 #include "exclusions.h"
 
 int main(){
-    printf("d");
-
     char F1[50] = "exclusions.txt";
 
-    exclusions(F1);
-    printf("t");
+    initialisation(F1);
+    printf("\nt");
 }
