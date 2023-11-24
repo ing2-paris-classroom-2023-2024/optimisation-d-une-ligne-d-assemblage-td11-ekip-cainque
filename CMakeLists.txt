@@ -3,4 +3,4 @@ project(Ligne_assemblage C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Ligne_assemblage Graphe.h exclusions.h main.c)
+add_executable(Ligne_assemblage Graphe.h exclusions.h main.c precedences.h)
