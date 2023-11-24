@@ -1,6 +1,11 @@
 #include "stdio.h"
 #include "stdlib.h"
+#include "Graphe.h"
+#include "exclusions.h"
 
 int main(){
-    printf("d");
+    char F1[50] = "exclusions.txt";
+
+    initialisation(F1);
+    printf("\nt");
 }
