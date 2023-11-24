@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Ligne_assemblage.dir/objects.a
+C:\Users\marti\Downloads\MinGW\bin\ar.exe qc CMakeFiles\Ligne_assemblage.dir/objects.a @CMakeFiles\Ligne_assemblage.dir\objects1.rsp
+C:\Users\marti\Downloads\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Ligne_assemblage.dir/objects.a -Wl,--no-whole-archive -o Ligne_assemblage.exe -Wl,--out-implib,libLigne_assemblage.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Ligne_assemblage.dir\linklibs.rsp
