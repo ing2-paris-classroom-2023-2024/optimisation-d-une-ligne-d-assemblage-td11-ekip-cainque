@@ -2,7 +2,7 @@
 #include "stdlib.h"
 #include "Graphe.h"
 
-void initialisation(char* filename){
+void exclusions(char* filename){
 
     FILE* ifs = fopen(filename, "r");
     if (!ifs){
