@@ -6,9 +6,8 @@
 
 int main(){
     char F1[50] = "exclusions.txt";
-    Sommet* Tab_Sommet;
-
-    initialisation(F1);
-
+    char F2[50] = "precedences.txt";
+    chill(F2);
     printf("\nt");
+    return 0;
 }

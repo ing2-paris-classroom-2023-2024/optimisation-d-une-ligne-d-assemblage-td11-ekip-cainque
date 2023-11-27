@@ -3,12 +3,13 @@
 
 typedef struct Sommet{
     int valeur;
-    int* Liste_Contrainte;
+    int Liste_Contrainte;
     int contrainte_actu;
-    int* tab2;
+    int *Liste_ope_pres;
+    int place_liste;
     int color;
-    int marque;
-    int pred;
+    float debut;
+    float fin;
 }Sommet;
 
 typedef struct Arc{
