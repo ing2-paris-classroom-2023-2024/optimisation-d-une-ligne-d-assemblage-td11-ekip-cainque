@@ -1,0 +1,303 @@
+Index: cmake-build-debug/CMakeFiles/clion-environment.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>ToolSet: w64 6.0 (local)@C:\\Program Files\\CodeBlocks\\MinGW\r\nOptions: \r\n\r\nOptions:-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/clion-environment.txt b/cmake-build-debug/CMakeFiles/clion-environment.txt
+--- a/cmake-build-debug/CMakeFiles/clion-environment.txt	(revision 553d860bf6dff791fc22e15d1313ec748247a9d8)
++++ b/cmake-build-debug/CMakeFiles/clion-environment.txt	(date 1699874066654)
+@@ -1,4 +1,4 @@
+-ToolSet: w64 6.0 (local)@C:\Program Files\CodeBlocks\MinGW
++ToolSet: w64 6.0 (local)@C:\Users\marti\Downloads\MinGW
+ Options: 
+ 
+-Options:-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe
+\ No newline at end of file
++Options:
+\ No newline at end of file
+Index: cmake-build-debug/CMakeFiles/clion-log.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"C:\\Program Files\\JetBrains\\CLion 2022.2.3\\bin\\cmake\\win\\bin\\cmake.exe\" -DCMAKE_BUILD_TYPE=Debug \"-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe\" -G Ninja -S \"C:\\Users\\romar\\CLionProjects\\Clion Projects\\Ligne_assemblage\" -B \"C:\\Users\\romar\\CLionProjects\\Clion Projects\\Ligne_assemblage\\cmake-build-debug\"\r\n-- The C compiler identification is GNU 8.1.0\r\n-- Detecting C compiler ABI info\r\n-- Detecting C compiler ABI info - done\r\n-- Check for working C compiler: C:/Program Files/CodeBlocks/MinGW/bin/gcc.exe - skipped\r\n-- Detecting C compile features\r\n-- Detecting C compile features - done\r\n-- Configuring done\r\n-- Generating done\r\n-- Build files have been written to: C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/clion-log.txt b/cmake-build-debug/CMakeFiles/clion-log.txt
+--- a/cmake-build-debug/CMakeFiles/clion-log.txt	(revision 553d860bf6dff791fc22e15d1313ec748247a9d8)
++++ b/cmake-build-debug/CMakeFiles/clion-log.txt	(date 1699874072441)
+@@ -1,10 +1,10 @@
+-"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\romar\CLionProjects\Clion Projects\Ligne_assemblage" -B "C:\Users\romar\CLionProjects\Clion Projects\Ligne_assemblage\cmake-build-debug"
++"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\marti\CLionProjects\optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque -B C:\Users\marti\CLionProjects\optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque\cmake-build-debug
+ -- The C compiler identification is GNU 8.1.0
+ -- Detecting C compiler ABI info
+ -- Detecting C compiler ABI info - done
+--- Check for working C compiler: C:/Program Files/CodeBlocks/MinGW/bin/gcc.exe - skipped
++-- Check for working C compiler: C:/Users/marti/Downloads/MinGW/bin/gcc.exe - skipped
+ -- Detecting C compile features
+ -- Detecting C compile features - done
+ -- Configuring done
+ -- Generating done
+--- Build files have been written to: C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug
++-- Build files have been written to: C:/Users/marti/CLionProjects/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque/cmake-build-debug
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/Ligne_assemblage.iml\" filepath=\"$PROJECT_DIR$/.idea/Ligne_assemblage.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision 553d860bf6dff791fc22e15d1313ec748247a9d8)
++++ b/.idea/modules.xml	(date 1699874067272)
+@@ -3,6 +3,7 @@
+   <component name="ProjectModuleManager">
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/.idea/Ligne_assemblage.iml" filepath="$PROJECT_DIR$/.idea/Ligne_assemblage.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque.iml" filepath="$PROJECT_DIR$/.idea/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque.iml b/.idea/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque.iml
+new file mode 100644
+--- /dev/null	(date 1699873975703)
++++ b/.idea/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque.iml	(date 1699873975703)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module classpath="CMake" type="CPP_MODULE" version="4" />
+\ No newline at end of file
+Index: cmake-build-debug/CMakeCache.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># This is the CMakeCache file.\r\n# For build in directory: c:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug\r\n# It was generated by CMake: C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/cmake.exe\r\n# You can edit this file to change values found and used by cmake.\r\n# If you do not want to change any of the values, simply exit the editor.\r\n# If you do want to change a value, simply edit, save, and exit the editor.\r\n# The syntax for the file is as follows:\r\n# KEY:TYPE=VALUE\r\n# KEY is the name of a variable in the cache.\r\n# TYPE is a hint to GUIs for the type of VALUE, DO NOT EDIT TYPE!.\r\n# VALUE is the current value for the KEY.\r\n\r\n########################\r\n# EXTERNAL cache entries\r\n########################\r\n\r\n//Path to a program.\r\nCMAKE_ADDR2LINE:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/addr2line.exe\r\n\r\n//Path to a program.\r\nCMAKE_AR:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/ar.exe\r\n\r\n//Choose the type of build, options are: None Debug Release RelWithDebInfo\r\n// MinSizeRel ...\r\nCMAKE_BUILD_TYPE:STRING=Debug\r\n\r\n//C compiler\r\nCMAKE_C_COMPILER:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/gcc.exe\r\n\r\n//A wrapper around 'ar' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_C_COMPILER_AR:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/gcc-ar.exe\r\n\r\n//A wrapper around 'ranlib' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/gcc-ranlib.exe\r\n\r\n//Flags used by the C compiler during all build types.\r\nCMAKE_C_FLAGS:STRING=\r\n\r\n//Flags used by the C compiler during DEBUG builds.\r\nCMAKE_C_FLAGS_DEBUG:STRING=-g\r\n\r\n//Flags used by the C compiler during MINSIZEREL builds.\r\nCMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG\r\n\r\n//Flags used by the C compiler during RELEASE builds.\r\nCMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG\r\n\r\n//Flags used by the C compiler during RELWITHDEBINFO builds.\r\nCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG\r\n\r\n//Libraries linked by default with all C applications.\r\nCMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32\r\n\r\n//Path to a program.\r\nCMAKE_DLLTOOL:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/dlltool.exe\r\n\r\n//Flags used by the linker during all build types.\r\nCMAKE_EXE_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during DEBUG builds.\r\nCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during MINSIZEREL builds.\r\nCMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during RELEASE builds.\r\nCMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during RELWITHDEBINFO builds.\r\nCMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Enable/Disable output of compile commands during generation.\r\nCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=\r\n\r\n//Convert GNU import libraries to MS format (requires Visual Studio)\r\nCMAKE_GNUtoMS:BOOL=OFF\r\n\r\n//Install path prefix, prepended onto install directories.\r\nCMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Ligne_assemblage\r\n\r\n//Path to a program.\r\nCMAKE_LINKER:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/ld.exe\r\n\r\n//make program\r\nCMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// all build types.\r\nCMAKE_MODULE_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// DEBUG builds.\r\nCMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// MINSIZEREL builds.\r\nCMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// RELEASE builds.\r\nCMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// RELWITHDEBINFO builds.\r\nCMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Path to a program.\r\nCMAKE_NM:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/nm.exe\r\n\r\n//Path to a program.\r\nCMAKE_OBJCOPY:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/objcopy.exe\r\n\r\n//Path to a program.\r\nCMAKE_OBJDUMP:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/objdump.exe\r\n\r\n//Value Computed by CMake\r\nCMAKE_PROJECT_DESCRIPTION:STATIC=\r\n\r\n//Value Computed by CMake\r\nCMAKE_PROJECT_HOMEPAGE_URL:STATIC=\r\n\r\n//Value Computed by CMake\r\nCMAKE_PROJECT_NAME:STATIC=Ligne_assemblage\r\n\r\n//Path to a program.\r\nCMAKE_RANLIB:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/ranlib.exe\r\n\r\n//RC compiler\r\nCMAKE_RC_COMPILER:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/windres.exe\r\n\r\n//Flags for Windows Resource Compiler during all build types.\r\nCMAKE_RC_FLAGS:STRING=\r\n\r\n//Flags for Windows Resource Compiler during DEBUG builds.\r\nCMAKE_RC_FLAGS_DEBUG:STRING=\r\n\r\n//Flags for Windows Resource Compiler during MINSIZEREL builds.\r\nCMAKE_RC_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags for Windows Resource Compiler during RELEASE builds.\r\nCMAKE_RC_FLAGS_RELEASE:STRING=\r\n\r\n//Flags for Windows Resource Compiler during RELWITHDEBINFO builds.\r\nCMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Path to a program.\r\nCMAKE_READELF:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/readelf.exe\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during all build types.\r\nCMAKE_SHARED_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during DEBUG builds.\r\nCMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during MINSIZEREL builds.\r\nCMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during RELEASE builds.\r\nCMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during RELWITHDEBINFO builds.\r\nCMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//If set, runtime paths are not added when installing shared libraries,\r\n// but are added when building.\r\nCMAKE_SKIP_INSTALL_RPATH:BOOL=NO\r\n\r\n//If set, runtime paths are not added when using shared libraries.\r\nCMAKE_SKIP_RPATH:BOOL=NO\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during all build types.\r\nCMAKE_STATIC_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during DEBUG builds.\r\nCMAKE_STATIC_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during MINSIZEREL builds.\r\nCMAKE_STATIC_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during RELEASE builds.\r\nCMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during RELWITHDEBINFO builds.\r\nCMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Path to a program.\r\nCMAKE_STRIP:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/strip.exe\r\n\r\n//If this value is on, makefiles will be generated without the\r\n// .SILENT directive, and all commands will be echoed to the console\r\n// during the make.  This is useful for debugging only. With Visual\r\n// Studio IDE projects all commands are done without /nologo.\r\nCMAKE_VERBOSE_MAKEFILE:BOOL=FALSE\r\n\r\n//Value Computed by CMake\r\nLigne_assemblage_BINARY_DIR:STATIC=C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug\r\n\r\n//Value Computed by CMake\r\nLigne_assemblage_IS_TOP_LEVEL:STATIC=ON\r\n\r\n//Value Computed by CMake\r\nLigne_assemblage_SOURCE_DIR:STATIC=C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage\r\n\r\n\r\n########################\r\n# INTERNAL cache entries\r\n########################\r\n\r\n//ADVANCED property for variable: CMAKE_ADDR2LINE\r\nCMAKE_ADDR2LINE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_AR\r\nCMAKE_AR-ADVANCED:INTERNAL=1\r\n//This is the directory where this CMakeCache.txt was created\r\nCMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug\r\n//Major version of cmake used to create the current loaded cache\r\nCMAKE_CACHE_MAJOR_VERSION:INTERNAL=3\r\n//Minor version of cmake used to create the current loaded cache\r\nCMAKE_CACHE_MINOR_VERSION:INTERNAL=23\r\n//Patch version of cmake used to create the current loaded cache\r\nCMAKE_CACHE_PATCH_VERSION:INTERNAL=2\r\n//Path to CMake executable.\r\nCMAKE_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/cmake.exe\r\n//Path to cpack program executable.\r\nCMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/cpack.exe\r\n//Path to ctest program executable.\r\nCMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/ctest.exe\r\n//ADVANCED property for variable: CMAKE_C_COMPILER\r\nCMAKE_C_COMPILER-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_COMPILER_AR\r\nCMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB\r\nCMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS\r\nCMAKE_C_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG\r\nCMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL\r\nCMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE\r\nCMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO\r\nCMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_STANDARD_LIBRARIES\r\nCMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_DLLTOOL\r\nCMAKE_DLLTOOL-ADVANCED:INTERNAL=1\r\n//Executable file format\r\nCMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS\r\nCMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG\r\nCMAKE_EXE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELEASE\r\nCMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS\r\nCMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1\r\n//Name of external makefile project generator.\r\nCMAKE_EXTRA_GENERATOR:INTERNAL=\r\n//Name of generator.\r\nCMAKE_GENERATOR:INTERNAL=Ninja\r\n//Generator instance identifier.\r\nCMAKE_GENERATOR_INSTANCE:INTERNAL=\r\n//Name of generator platform.\r\nCMAKE_GENERATOR_PLATFORM:INTERNAL=\r\n//Name of generator toolset.\r\nCMAKE_GENERATOR_TOOLSET:INTERNAL=\r\n//Source directory with the top level CMakeLists.txt file for this\r\n// project\r\nCMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage\r\n//ADVANCED property for variable: CMAKE_LINKER\r\nCMAKE_LINKER-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS\r\nCMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG\r\nCMAKE_MODULE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELEASE\r\nCMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_NM\r\nCMAKE_NM-ADVANCED:INTERNAL=1\r\n//number of local generators\r\nCMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_OBJCOPY\r\nCMAKE_OBJCOPY-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_OBJDUMP\r\nCMAKE_OBJDUMP-ADVANCED:INTERNAL=1\r\n//Platform information initialized\r\nCMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RANLIB\r\nCMAKE_RANLIB-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RC_COMPILER\r\nCMAKE_RC_COMPILER-ADVANCED:INTERNAL=1\r\nCMAKE_RC_COMPILER_WORKS:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RC_FLAGS\r\nCMAKE_RC_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RC_FLAGS_DEBUG\r\nCMAKE_RC_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RC_FLAGS_MINSIZEREL\r\nCMAKE_RC_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RC_FLAGS_RELEASE\r\nCMAKE_RC_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RC_FLAGS_RELWITHDEBINFO\r\nCMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_READELF\r\nCMAKE_READELF-ADVANCED:INTERNAL=1\r\n//Path to CMake installation.\r\nCMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/share/cmake-3.23\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS\r\nCMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG\r\nCMAKE_SHARED_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_SHARED_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELEASE\r\nCMAKE_SHARED_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SKIP_INSTALL_RPATH\r\nCMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SKIP_RPATH\r\nCMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS\r\nCMAKE_STATIC_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_DEBUG\r\nCMAKE_STATIC_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_STATIC_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELEASE\r\nCMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STRIP\r\nCMAKE_STRIP-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE\r\nCMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeCache.txt b/cmake-build-debug/CMakeCache.txt
+--- a/cmake-build-debug/CMakeCache.txt	(revision 553d860bf6dff791fc22e15d1313ec748247a9d8)
++++ b/cmake-build-debug/CMakeCache.txt	(date 1699874071820)
+@@ -1,6 +1,6 @@
+ # This is the CMakeCache file.
+-# For build in directory: c:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug
+-# It was generated by CMake: C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/cmake.exe
++# For build in directory: c:/Users/marti/CLionProjects/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque/cmake-build-debug
++# It was generated by CMake: C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/cmake.exe
+ # You can edit this file to change values found and used by cmake.
+ # If you do not want to change any of the values, simply exit the editor.
+ # If you do want to change a value, simply edit, save, and exit the editor.
+@@ -15,25 +15,39 @@
+ ########################
+ 
+ //Path to a program.
+-CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/addr2line.exe
++CMAKE_ADDR2LINE:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/addr2line.exe
+ 
+ //Path to a program.
+-CMAKE_AR:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/ar.exe
++CMAKE_AR:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/ar.exe
+ 
+ //Choose the type of build, options are: None Debug Release RelWithDebInfo
+ // MinSizeRel ...
+ CMAKE_BUILD_TYPE:STRING=Debug
+ 
++//Id string of the compiler for the CodeBlocks IDE. Automatically
++// detected when left empty
++CMAKE_CODEBLOCKS_COMPILER_ID:STRING=
++
++//The CodeBlocks executable
++CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
++
++//Additional command line arguments when CodeBlocks invokes make.
++// Enter e.g. -j<some_number> to get parallel builds
++CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
++
++//Enable/Disable color output during build.
++CMAKE_COLOR_MAKEFILE:BOOL=ON
++
+ //C compiler
+-CMAKE_C_COMPILER:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/gcc.exe
++CMAKE_C_COMPILER:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/gcc.exe
+ 
+ //A wrapper around 'ar' adding the appropriate '--plugin' option
+ // for the GCC compiler
+-CMAKE_C_COMPILER_AR:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/gcc-ar.exe
++CMAKE_C_COMPILER_AR:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/gcc-ar.exe
+ 
+ //A wrapper around 'ranlib' adding the appropriate '--plugin' option
+ // for the GCC compiler
+-CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/gcc-ranlib.exe
++CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/gcc-ranlib.exe
+ 
+ //Flags used by the C compiler during all build types.
+ CMAKE_C_FLAGS:STRING=
+@@ -54,7 +68,7 @@
+ CMAKE_C_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+ 
+ //Path to a program.
+-CMAKE_DLLTOOL:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/dlltool.exe
++CMAKE_DLLTOOL:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/dlltool.exe
+ 
+ //Flags used by the linker during all build types.
+ CMAKE_EXE_LINKER_FLAGS:STRING=
+@@ -71,9 +85,6 @@
+ //Flags used by the linker during RELWITHDEBINFO builds.
+ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+ 
+-//Enable/Disable output of compile commands during generation.
+-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+-
+ //Convert GNU import libraries to MS format (requires Visual Studio)
+ CMAKE_GNUtoMS:BOOL=OFF
+ 
+@@ -81,10 +92,10 @@
+ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Ligne_assemblage
+ 
+ //Path to a program.
+-CMAKE_LINKER:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/ld.exe
++CMAKE_LINKER:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/ld.exe
+ 
+-//make program
+-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe
++//Path to a program.
++CMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/mingw32-make.exe
+ 
+ //Flags used by the linker during the creation of modules during
+ // all build types.
+@@ -107,13 +118,13 @@
+ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+ 
+ //Path to a program.
+-CMAKE_NM:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/nm.exe
++CMAKE_NM:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/nm.exe
+ 
+ //Path to a program.
+-CMAKE_OBJCOPY:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/objcopy.exe
++CMAKE_OBJCOPY:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/objcopy.exe
+ 
+ //Path to a program.
+-CMAKE_OBJDUMP:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/objdump.exe
++CMAKE_OBJDUMP:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/objdump.exe
+ 
+ //Value Computed by CMake
+ CMAKE_PROJECT_DESCRIPTION:STATIC=
+@@ -125,10 +136,10 @@
+ CMAKE_PROJECT_NAME:STATIC=Ligne_assemblage
+ 
+ //Path to a program.
+-CMAKE_RANLIB:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/ranlib.exe
++CMAKE_RANLIB:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/ranlib.exe
+ 
+ //RC compiler
+-CMAKE_RC_COMPILER:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/windres.exe
++CMAKE_RC_COMPILER:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/windres.exe
+ 
+ //Flags for Windows Resource Compiler during all build types.
+ CMAKE_RC_FLAGS:STRING=
+@@ -146,7 +157,7 @@
+ CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
+ 
+ //Path to a program.
+-CMAKE_READELF:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/readelf.exe
++CMAKE_READELF:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/readelf.exe
+ 
+ //Flags used by the linker during the creation of shared libraries
+ // during all build types.
+@@ -196,7 +207,7 @@
+ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+ 
+ //Path to a program.
+-CMAKE_STRIP:FILEPATH=C:/Program Files/CodeBlocks/MinGW/bin/strip.exe
++CMAKE_STRIP:FILEPATH=C:/Users/marti/Downloads/MinGW/bin/strip.exe
+ 
+ //If this value is on, makefiles will be generated without the
+ // .SILENT directive, and all commands will be echoed to the console
+@@ -205,13 +216,13 @@
+ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+ 
+ //Value Computed by CMake
+-Ligne_assemblage_BINARY_DIR:STATIC=C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug
++Ligne_assemblage_BINARY_DIR:STATIC=C:/Users/marti/CLionProjects/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque/cmake-build-debug
+ 
+ //Value Computed by CMake
+ Ligne_assemblage_IS_TOP_LEVEL:STATIC=ON
+ 
+ //Value Computed by CMake
+-Ligne_assemblage_SOURCE_DIR:STATIC=C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage
++Ligne_assemblage_SOURCE_DIR:STATIC=C:/Users/marti/CLionProjects/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque
+ 
+ 
+ ########################
+@@ -223,19 +234,21 @@
+ //ADVANCED property for variable: CMAKE_AR
+ CMAKE_AR-ADVANCED:INTERNAL=1
+ //This is the directory where this CMakeCache.txt was created
+-CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage/cmake-build-debug
++CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/marti/CLionProjects/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque/cmake-build-debug
+ //Major version of cmake used to create the current loaded cache
+ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
+ //Minor version of cmake used to create the current loaded cache
+ CMAKE_CACHE_MINOR_VERSION:INTERNAL=23
+ //Patch version of cmake used to create the current loaded cache
+ CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
++//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
++CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
+ //Path to CMake executable.
+-CMAKE_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/cmake.exe
++CMAKE_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/cmake.exe
+ //Path to cpack program executable.
+-CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/cpack.exe
++CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/cpack.exe
+ //Path to ctest program executable.
+-CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/bin/ctest.exe
++CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/ctest.exe
+ //ADVANCED property for variable: CMAKE_C_COMPILER
+ CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_C_COMPILER_AR
+@@ -268,12 +281,14 @@
+ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
+ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
+ //Name of external makefile project generator.
+-CMAKE_EXTRA_GENERATOR:INTERNAL=
++CMAKE_EXTRA_GENERATOR:INTERNAL=CodeBlocks
++//C compiler system defined macros
++CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;8;__GNUC_MINOR__;1;__GNUC_PATCHLEVEL__;0;__VERSION__;"8.1.0";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__pic__;1;__PIC__;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;16;__SIZEOF_SIZE_T__;8;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;8;__SIZE_TYPE__;long long unsigned int;__PTRDIFF_TYPE__;long long int;__WCHAR_TYPE__;short unsigned int;__WINT_TYPE__;short unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;short int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;short unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;long long int;__UINTPTR_TYPE__;long long unsigned int;__has_include(STR);__has_include__(STR);__has_include_next(STR);__has_include_next__(STR);__GXX_ABI_VERSION;1012;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffff;__WCHAR_MIN__;0;__WINT_MAX__;0xffff;__WINT_MIN__;0;__PTRDIFF_MAX__;0x7fffffffffffffffLL;__SIZE_MAX__;0xffffffffffffffffULL;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;16;__WINT_WIDTH__;16;__PTRDIFF_WIDTH__;64;__SIZE_WIDTH__;64;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fff;__INT_FAST16_WIDTH__;16;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffff;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffffffffffffLL;__INTPTR_WIDTH__;64;__UINTPTR_MAX__;0xffffffffffffffffULL;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;0;__FLT_EVAL_METHOD_TS_18661_3__;0;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.79769313486231570814527423731704357e+308L);__DBL_MIN__;((double)2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;((double)2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;((double)4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__; ;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_16;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_INT128__;16;__SIZEOF_WCHAR_T__;2;__SIZEOF_WINT_T__;2;__SIZEOF_PTRDIFF_T__;8;__amd64;1;__amd64__;1;__x86_64;1;__x86_64__;1;__SIZEOF_FLOAT80__;16;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__nocona;1;__nocona__;1;__tune_core2__;1;__code_model_medium__;1;__MMX__;1;__SSE__;1;__SSE2__;1;__SSE3__;1;__FXSR__;1;__SSE_MATH__;1;__SSE2_MATH__;1;__SEG_FS;1;__SEG_GS;1;__SEH__;1;__stdcall;__attribute__((__stdcall__));__fastcall;__attribute__((__fastcall__));__thiscall;__attribute__((__thiscall__));__cdecl;__attribute__((__cdecl__));_stdcall;__attribute__((__stdcall__));_fastcall;__attribute__((__fastcall__));_thiscall;__attribute__((__thiscall__));_cdecl;__attribute__((__cdecl__));__GXX_MERGED_TYPEINFO_NAMES;0;__GXX_TYPEINFO_EQUALITY_INLINE;0;__MSVCRT__;1;__MINGW32__;1;_WIN32;1;__WIN32;1;__WIN32__;1;WIN32;1;__WINNT;1;__WINNT__;1;WINNT;1;_INTEGRAL_MAX_BITS;64;__MINGW64__;1;__WIN64;1;__WIN64__;1;WIN64;1;_WIN64;1;__declspec(x);__attribute__((x));__DECIMAL_BID_FORMAT__;1;_REENTRANT;1
++//C compiler system include directories
++CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS:INTERNAL=C:/Users/marti/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include;C:/Users/marti/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;C:/Users/marti/Downloads/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include
+ //Name of generator.
+-CMAKE_GENERATOR:INTERNAL=Ninja
++CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
+ //Generator instance identifier.
+ CMAKE_GENERATOR_INSTANCE:INTERNAL=
+ //Name of generator platform.
+@@ -282,9 +297,11 @@
+ CMAKE_GENERATOR_TOOLSET:INTERNAL=
+ //Source directory with the top level CMakeLists.txt file for this
+ // project
+-CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/romar/CLionProjects/Clion Projects/Ligne_assemblage
++CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/marti/CLionProjects/optimisation-d-une-ligne-d-assemblage-td11-ekip-cainque
+ //ADVANCED property for variable: CMAKE_LINKER
+ CMAKE_LINKER-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
++CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
+ CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
+@@ -323,7 +340,7 @@
+ //ADVANCED property for variable: CMAKE_READELF
+ CMAKE_READELF-ADVANCED:INTERNAL=1
+ //Path to CMake installation.
+-CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.3/bin/cmake/win/share/cmake-3.23
++CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23
+ //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
+ CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
