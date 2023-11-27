@@ -17,7 +17,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Fin programme exclusions.h manque commentaires" />
+    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Fin programme exclusions.h manque commentaires">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Ligne_assemblage.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Ligne_assemblage.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exclusions.h" beforeDir="false" afterPath="$PROJECT_DIR$/exclusions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700174104107</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fin programme exclusions.h manque commentaires">
+      <created>1701081828350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701081828350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +165,7 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Pour martin" />
     <MESSAGE value="Debut code exclusions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debut code exclusions" />
+    <MESSAGE value="Fin programme exclusions.h manque commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin programme exclusions.h manque commentaires" />
   </component>
 </project>

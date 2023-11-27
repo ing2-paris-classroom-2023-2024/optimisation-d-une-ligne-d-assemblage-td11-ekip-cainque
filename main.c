@@ -8,7 +8,7 @@ int main(){
     char F1[50] = "exclusions.txt";
     Sommet* Tab_Sommet;
 
-    initialisation(F1);
+    exclusions(F1);
 
     printf("\nt");
 }
