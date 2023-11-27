@@ -17,10 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Fin programme exclusions.h manque commentaires">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2023_14_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_11_2023_14_26__Changes_.xml" afterDir="false" />
+    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Fin programme exclusions.h + quelque commentaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701081828350</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fin programme exclusions.h + quelque commentaires">
+      <created>1701106452555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701106452555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +168,7 @@
     <MESSAGE value="Pour martin" />
     <MESSAGE value="Debut code exclusions" />
     <MESSAGE value="Fin programme exclusions.h manque commentaires" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fin programme exclusions.h manque commentaires" />
+    <MESSAGE value="Fin programme exclusions.h + quelque commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin programme exclusions.h + quelque commentaires" />
   </component>
 </project>
