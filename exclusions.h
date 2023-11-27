@@ -27,21 +27,29 @@ void initialisation(char* filename){
     fseek(ifs,0,0);
 
     Sommet* Tab_Sommet = malloc(sizeof(Sommet)*compteur_sommet);
-    int* tableau_vide = malloc(sizeof(int)*compteur_relation);
     int tab2 = malloc((sizeof(int)*1));
 
     for(int i=0;i<compteur_sommet;i++){
-        Sommet temp = {i,tableau_vide,0,tab2,0,0,0};
+        int* tableau_vide = malloc(sizeof(int)*compteur_relation);
+        Sommet temp = {i,tableau_vide,0,tab2,-1,0,0};
         Tab_Sommet[i]= temp;
     }
 
     while(fscanf(ifs, "%d %d", &S1, &S2) == 2){
-         Sommet temp = Tab_Sommet[S1];
-         int** tab_temp = temp.Liste_Contrainte;
-         tab_temp[temp.contrainte_actu] = S2;
-         temp.contrainte_actu++;
-         temp.Liste_Contrainte = tab_temp;
-         Tab_Sommet[S1] = temp;
+
+        Sommet temp = Tab_Sommet[S1];
+        int* tab_temp = temp.Liste_Contrainte;
+        tab_temp[temp.contrainte_actu] = S2;
+        temp.contrainte_actu++;
+        temp.Liste_Contrainte = tab_temp;
+        Tab_Sommet[S1] = temp;
+
+        Sommet temp2 = Tab_Sommet[S2];
+        int* tab_temp2 = temp2.Liste_Contrainte;
+        tab_temp2[temp2.contrainte_actu] = S1;
+        temp2.contrainte_actu++;
+        temp2.Liste_Contrainte = tab_temp2;
+        Tab_Sommet[S2] = temp2;
     }
 
     for(int i=0 ; i < compteur_sommet-1; i++){
@@ -54,14 +62,52 @@ void initialisation(char* filename){
         }
     }
 
-    int color = 1;
-    for(int i=0; i < compteur_sommet;i++){
-        Sommet temp = Tab_Sommet[i];
+    int compteur_couleur = 0, color = 1;
+    int exclu = 0;
+    int* tab_exclu = malloc(sizeof(int) * compteur_sommet);
+    int nbr_exclu = 0;
 
+    while (compteur_sommet > compteur_couleur) {
+
+        nbr_exclu = 0;
+        for (int i = 0; i < compteur_sommet; i++) {
+            tab_exclu[i] = -1;
+        }
+
+        for (int i = 0; i < compteur_sommet; i++) {
+            Sommet temp = Tab_Sommet[i];
+            exclu = 0;
+
+            for (int j = 0; j < nbr_exclu; j++) {
+                if (temp.valeur == tab_exclu[j]) {
+                    exclu = 1;
+                    break;
+                }
+            }
+
+            if (exclu == 0 && temp.color==-1) {
+                temp.color = color;
+                compteur_couleur++;
+
+                // Mettre à jour le tableau d'exclusions avec les contraintes du sommet coloré
+                for (int j = 0; j < temp.contrainte_actu; j++) {
+                    int* tab_temp = temp.Liste_Contrainte;
+                    if (nbr_exclu < compteur_sommet) {
+                        tab_exclu[nbr_exclu] = tab_temp[j];
+                        nbr_exclu++;
+                    }
+                }
+            }
+
+            Tab_Sommet[i] = temp;
+        }
+
+        color++;
     }
 
-    for(int i=0;i<compteur_sommet;i++){
-        printf("\n%d: %d",Tab_Sommet[i].valeur,Tab_Sommet[i].contrainte_actu);
+
+    for (int i = 0; i < compteur_sommet; i++) {
+        printf("\n%d: %d", Tab_Sommet[i].valeur, Tab_Sommet[i].color );
     }
 
     fclose(ifs);
