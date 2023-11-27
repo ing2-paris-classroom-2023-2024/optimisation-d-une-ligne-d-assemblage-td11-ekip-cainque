@@ -1,6 +1,6 @@
 //
 // Created by marti on 24/11/2023.
-//
+///
 #ifndef LIGNE_ASSEMBLAGE_PRECEDENCES_H
 #define LIGNE_ASSEMBLAGE_PRECEDENCES_H
 #include "stdio.h"
