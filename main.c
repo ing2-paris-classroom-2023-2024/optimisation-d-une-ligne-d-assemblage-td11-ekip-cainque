@@ -7,7 +7,8 @@
 int main(){
     char F1[50] = "exclusions.txt";
     char F2[50] = "precedences.txt";
-    chill(F2);
+    char F3[50] = "opduree.txt";
+    chill(F2,F3);
     printf("\nt");
     return 0;
 }

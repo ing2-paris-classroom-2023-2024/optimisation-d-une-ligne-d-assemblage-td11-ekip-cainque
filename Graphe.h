@@ -8,6 +8,7 @@ typedef struct Sommet{
     int *Liste_ope_pres;
     int place_liste;
     int color;
+    float duree;
     float debut;
     float fin;
 }Sommet;
