@@ -3,14 +3,13 @@
 
 typedef struct Sommet{
     int valeur;
-    int Liste_Contrainte;
+    int* Liste_Contrainte;
     int contrainte_actu;
-    int *Liste_ope_pres;
+    int* Liste_ope_pres;
     int place_liste;
     int color;
     float duree;
-    float debut;
-    float fin;
+
 }Sommet;
 
 typedef struct Arc{
@@ -26,6 +25,13 @@ typedef struct Graphe{
     float duree_tot;
     float duree_max;
 }Graphe;
+
+typedef struct {
+    int numStation;
+    float tempsTotal;
+    Sommet* operations;
+    int nbOperations;
+}Station;
 
 
 #endif //LIGNE_ASSEMBLAGE_GRAPHE_H

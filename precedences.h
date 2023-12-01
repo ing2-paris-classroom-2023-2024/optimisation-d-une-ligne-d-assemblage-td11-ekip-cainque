@@ -51,14 +51,13 @@ void chill(char* filename, char* filename2){
     }*/
 
     Sommet* Tab_Sommet = malloc(sizeof(Sommet)*nb_sommet);
-    int tab = malloc((sizeof(int)*1));
 
     for(i=0;i<nb_sommet;i++){
         int* tab_predecesseur = malloc((sizeof(int)*nb_sommet));
         for(j=0;j<nb_sommet;j++){
             tab_predecesseur[j]=0;
         }
-        Sommet temp = {0,tab,0,tab_predecesseur,0,0,0,0};
+        Sommet temp = {.valeur=i,.Liste_ope_pres = tab_predecesseur};
         verif=1;
         while(fscanf(fichier, "%d %d", &op1, &op2) == 2){
             if(Tab_Sommet[i].valeur==op1 || Tab_Sommet[i].valeur==op2){

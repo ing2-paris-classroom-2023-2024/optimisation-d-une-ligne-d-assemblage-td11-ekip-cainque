@@ -27,16 +27,14 @@ void exclusions(char* filename){
     fseek(ifs,0,0);
 
     Sommet* Tab_Sommet = malloc(sizeof(Sommet)*compteur_sommet);
-    int tab2 = malloc((sizeof(int)*1));
 
     for(int i=0;i<compteur_sommet;i++){
         int* tableau_vide = malloc(sizeof(int)*compteur_relation);
-        Sommet temp = {i,tableau_vide,0,tab2,-1,0,0};
+        Sommet temp = {.valeur=i,.Liste_Contrainte=tableau_vide,.contrainte_actu=0,.color=-1};
         Tab_Sommet[i]= temp;
     }
 
     while(fscanf(ifs, "%d %d", &S1, &S2) == 2){
-
         Sommet temp = Tab_Sommet[S1];
         int* tab_temp = temp.Liste_Contrainte;
         tab_temp[temp.contrainte_actu] = S2;
@@ -67,8 +65,7 @@ void exclusions(char* filename){
     int* tab_exclu = malloc(sizeof(int) * compteur_sommet);
     int nbr_exclu = 0;
 
-    while (compteur_sommet > compteur_couleur) {
-
+    while (compteur_sommet > compteur_couleur){
         nbr_exclu = 0;
         for (int i = 0; i < compteur_sommet; i++) {
             tab_exclu[i] = -1;
@@ -85,7 +82,7 @@ void exclusions(char* filename){
                 }
             }
 
-            if (exclu == 0 && temp.color==-1) {
+            if (exclu == 0 && temp.color == -1){
                 temp.color = color;
                 compteur_couleur++;
 
@@ -105,12 +102,9 @@ void exclusions(char* filename){
         color++;
     }
 
-
     for (int i = 0; i < compteur_sommet; i++) {
         printf("\n%d: %d", Tab_Sommet[i].valeur, Tab_Sommet[i].color );
     }
 
     fclose(ifs);
-
-    printf("\n\n\nR: %d\nS: %d", compteur_relation, compteur_sommet);
 }
