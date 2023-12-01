@@ -121,7 +121,7 @@ void chill(char* filename, char* filename2){
         }
     }
 
-    //printf("\n");
+    printf("|");
     for(i=0;i<nb_sommet;i++){
         if(priorite[i]!=0){
             printf("%d|",priorite[i]);

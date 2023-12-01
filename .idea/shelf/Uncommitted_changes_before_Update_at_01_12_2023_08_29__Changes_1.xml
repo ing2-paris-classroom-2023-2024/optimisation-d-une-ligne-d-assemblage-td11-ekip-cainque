@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_01_12_2023_08_29_[Changes]1" date="1701415821686" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2023_08_29_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 01/12/2023 08:29 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/.ninja_deps" />
+    <option name="AFTER_PATH" value="cmake-build-debug/.ninja_deps" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2023_08_29_[Changes]1/.ninja_deps" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/Ligne_assemblage.exe" />
+    <option name="AFTER_PATH" value="cmake-build-debug/Ligne_assemblage.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2023_08_29_[Changes]1/Ligne_assemblage.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_12_2023_08_29_[Changes]1/main.c.obj" />
+  </binary>
+</changelist>
