@@ -120,4 +120,40 @@ int compteNombreOps(const char* nomFichier) {
     return nombreOps;
 }
 
+Station *cycle_temp(char* duree_total, char* duree){
+    char* liste = duree;
+    int nombreOps = compteNombreOps(liste);
+
+    FILE* file = fopen(duree_total, "r");
+    if (file == NULL) {
+        perror("Erreur lors de l'ouverture du fichier");
+        exit(1);
+    }
+    float tempsCycle;
+    fscanf(file,"%f",&tempsCycle);
+    fclose(file);
+    int nbStations = 1;
+
+    printf("Nombre d'opérations attendu : %d\n", nombreOps);
+    printf("Chemin du fichier : %s\n", liste);
+
+    Sommet * ops = malloc(nombreOps * sizeof(Sommet));
+    if (ops == NULL) {
+        perror("Erreur lors de l'allocation de mémoire pour ops");
+        exit(1);
+    }
+
+    lireOperations(ops, nombreOps, liste);
+    Station* stations = repartirOperations(ops, nombreOps, &nbStations, tempsCycle);
+    afficherResultats(stations, nbStations);
+
+    free(ops);
+    for (int i = 0; i < nbStations; i++) {
+        free(stations[i].operations);
+    }
+    free(stations);
+
+    return stations;
+}
+
 #endif //LIGNE_ASSEMBLAGE_CYCLE_TEMP_H
