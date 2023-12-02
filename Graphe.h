@@ -6,7 +6,10 @@ typedef struct Sommet{
     int* Liste_Contrainte;
     int contrainte_actu;
     int* Liste_ope_pres;
-    int place_liste;
+    int* Liste_prec;
+    int* Liste_succ;
+    int nb_pred;
+    int place_liste_pred;
     int color;
     float duree;
 
