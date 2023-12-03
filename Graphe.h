@@ -34,6 +34,7 @@ typedef struct {
     float tempsTotal;
     Sommet* operations;
     int nbOperations;
+    int color;
 }Station;
 
 

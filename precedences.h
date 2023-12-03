@@ -1,24 +1,15 @@
-//
-// Created by marti on 24/11/2023.
-//
 #ifndef LIGNE_ASSEMBLAGE_PRECEDENCES_H
 #define LIGNE_ASSEMBLAGE_PRECEDENCES_H
 #include "stdio.h"
 #include "stdlib.h"
 #include "Graphe.h"
 
-int* Precedences(char* filename, char* filename2){
-    int op,op1,op2,i,j,verif;
-    float duree;
+int* Precedences(char* filename){
+    int op1,op2,i,j,verif;
     int nbarrete=0,nb_sommet=0;
 
     FILE* fichier = fopen(filename, "r");
     if (!fichier){
-        printf("Erreur de lecture fichier\n");
-        exit(-1);
-    }
-    FILE* fichier_d = fopen(filename2, "r");
-    if (!fichier_d){
         printf("Erreur de lecture fichier\n");
         exit(-1);
     }
@@ -66,7 +57,6 @@ int* Precedences(char* filename, char* filename2){
             cpt_sommet++;
         }
     }
-    printf("Il y a %d sommet(s) dans le graphe\n",cpt_sommet);
 
     for(i=0;i<nb_sommet;i++){
         while(fscanf(fichier, "%d %d", &op1, &op2) == 2){
@@ -74,24 +64,10 @@ int* Precedences(char* filename, char* filename2){
                 Tab_Sommet[i].Liste_ope_pres[Tab_Sommet[i].place_liste_pred]=op1;
                 Tab_Sommet[i].Liste_prec[Tab_Sommet[i].place_liste_pred]=op1;
                 Tab_Sommet[i].place_liste_pred+=1;
-                //printf("%d, ",Tab_Sommet[i].place_liste_pred);
             }
         }
         fseek(fichier,0,0);
     }
-    int x;
-    printf("les predecesseurs de quel sommet vous voulez savoir : ");
-    scanf("%d",&x);
-    for(i=0;i<nb_sommet;i++){
-        if(Tab_Sommet[i].valeur==x){
-            for(j=0;j<nb_sommet;j++){
-                if(Tab_Sommet[i].Liste_prec[j]!=0){
-                    printf("%d, ",Tab_Sommet[i].Liste_prec[j]);
-                }
-            }
-        }
-    }
-    printf("\n");
 
     for(i=0;i<nb_sommet;i++){
         for(j=0;j<nb_sommet;j++){
@@ -103,7 +79,6 @@ int* Precedences(char* filename, char* filename2){
         }
         if(Tab_Sommet[i].valeur==0){
             Tab_Sommet[i].nb_pred=-1;
-            //printf("%d, ",Tab_Sommet[i].nb_pred);
         }
     }
 
@@ -119,7 +94,6 @@ int* Precedences(char* filename, char* filename2){
                 priorite[place_prio]=Tab_Sommet[i].valeur;
                 place_prio++;
                 cpt_moins++;
-                //printf("%d, ",Tab_Sommet[i].valeur);
                 Tab_Sommet[i].valeur=0;
             }
         }
@@ -144,18 +118,16 @@ int* Precedences(char* filename, char* filename2){
                     Tab_Sommet[i].valeur=0;
                     place_prio++;
                     cpt++;
-                    //printf("%d, ",cpt);
                 }
             }
         }
     }
     printf("Le tableau de priorite est :\n|");
-    for(i=0;i<nb_sommet;i++){
-        if(priorite[i]!=0){
-            printf("%d|",priorite[i]);
+    for(i=0;i<nb_sommet;i++) {
+        if (priorite[i] != 0) {
+            printf("%d|", priorite[i]);
         }
     }
-
     return priorite;
 }
 

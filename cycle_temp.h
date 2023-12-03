@@ -5,9 +5,8 @@
 #include <stdlib.h>
 #include "Graphe.h"
 
-
 void lireOperations(Sommet * ops, int nombreOps, const char* nomFichier) {
-    FILE* file = fopen(nomFichier, "r");
+    FILE *file = fopen(nomFichier, "r");
     if (file == NULL) {
         perror("Erreur lors de l'ouverture du fichier");
         exit(1);
@@ -15,17 +14,12 @@ void lireOperations(Sommet * ops, int nombreOps, const char* nomFichier) {
 
     for (int i = 0; i < nombreOps; i++) {
         if (fscanf(file, "%d %f", &ops[i].valeur, &ops[i].duree) != 2) {
-            fprintf(stderr, "Erreur de format dans le fichier txt à la ligne %d.\n", i + 1);
+            printf("Erreur de format dans le fichier txt à la ligne %d.\n", i + 1);
             exit(1);
         }
     }
 
     fclose(file);
-
-    printf("Opérations lues du fichier :\n");
-    for (int i = 0; i < nombreOps; i++) {
-        printf("Opération %d - Durée : %.2f\n", ops[i].valeur, ops[i].duree);
-    }
 }
 
 Station* repartirOperations(Sommet * ops, int nombreOps, int* nbStations, float tempsCycle) {
@@ -62,8 +56,6 @@ Station* repartirOperations(Sommet * ops, int nombreOps, int* nbStations, float 
             stations[*nbStations - 1].operations = NULL;
             stations[*nbStations - 1].nbOperations = 0;
 
-            printf("Step %d: Attribution : Nouvelle Station %d, Opération %d\n", i, *nbStations, ops[i].valeur);
-
             continue;
         }
 
@@ -74,7 +66,6 @@ Station* repartirOperations(Sommet * ops, int nombreOps, int* nbStations, float 
         stations[indexMinTempsTotal].operations[indexOperation] = ops[i];
         stations[indexMinTempsTotal].tempsTotal += ops[i].duree;
 
-        printf("Step %d: Attribution : Station %d, Opération %d\n", i, indexMinTempsTotal + 1, ops[i].valeur);
     }
 
     return stations;
@@ -100,7 +91,6 @@ void afficherResultats(Station* stations, int nbStations) {
         printf("\n");
     }
 }
-
 int compteNombreOps(const char* nomFichier) {
     FILE* file = fopen(nomFichier, "r");
     if (file == NULL) {
@@ -119,7 +109,6 @@ int compteNombreOps(const char* nomFichier) {
 
     return nombreOps;
 }
-
 Station *cycle_temp(char* duree_total, char* duree){
     char* liste = duree;
     int nombreOps = compteNombreOps(liste);
@@ -133,9 +122,6 @@ Station *cycle_temp(char* duree_total, char* duree){
     fscanf(file,"%f",&tempsCycle);
     fclose(file);
     int nbStations = 1;
-
-    printf("Nombre d'opérations attendu : %d\n", nombreOps);
-    printf("Chemin du fichier : %s\n", liste);
 
     Sommet * ops = malloc(nombreOps * sizeof(Sommet));
     if (ops == NULL) {

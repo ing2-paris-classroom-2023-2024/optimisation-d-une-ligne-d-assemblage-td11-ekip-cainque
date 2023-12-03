@@ -2,7 +2,7 @@
 #include "stdlib.h"
 #include "Graphe.h"
 
-void exclusions(char* filename){
+Sommet *exclusions(char* filename, int* taille){
 
     FILE* ifs = fopen(filename, "r");
     if (!ifs){
@@ -23,7 +23,7 @@ void exclusions(char* filename){
         compteur_relation++;
     }
     compteur_sommet++;
-
+    *taille = compteur_sommet;
     fseek(ifs,0,0);
 
     Sommet* Tab_Sommet = malloc(sizeof(Sommet)*compteur_sommet);
@@ -101,10 +101,6 @@ void exclusions(char* filename){
 
         color++;
     }
-
-    for (int i = 0; i < compteur_sommet; i++) {
-        printf("\n%d: %d", Tab_Sommet[i].valeur, Tab_Sommet[i].color );
-    }
-
     fclose(ifs);
+    return Tab_Sommet;
 }
