@@ -17,28 +17,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Mise en commun + modification de cycle_temp.h">
-      <change afterPath="$PROJECT_DIR$/Combinaison.h" afterDir="false" />
+    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Avancement fonction final, combinaison de tout les tab_sommet en 1 seul">
+      <change afterPath="$PROJECT_DIR$/Precedence_Temps.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphe.h" beforeDir="false" afterPath="$PROJECT_DIR$/Graphe.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-08be0a382e59ff9bc65f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-246cc078863576b1aa75.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-01T23-11-25-0696.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Ligne_assemblage-Debug-03d14d5cba6bde2f2212.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Combinaison.h" beforeDir="false" afterPath="$PROJECT_DIR$/Combinaison.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Ligne_assemblage.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Ligne_assemblage.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/duree_max.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/duree_max.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/opduree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/opduree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cycle_temp.h" beforeDir="false" afterPath="$PROJECT_DIR$/cycle_temp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exclusions.h" beforeDir="false" afterPath="$PROJECT_DIR$/exclusions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precedences.h" beforeDir="false" afterPath="$PROJECT_DIR$/precedences.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +73,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Ligne_assemblage">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ligne_assemblage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ligne_assemblage" TARGET_NAME="Ligne_assemblage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Ligne_assemblage" RUN_TARGET_NAME="Ligne_assemblage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -118,7 +112,7 @@
       <workItem from="1700553636350" duration="10483000" />
       <workItem from="1701519364868" duration="1108000" />
       <workItem from="1701542733179" duration="10600000" />
-      <workItem from="1701594992820" duration="1594000" />
+      <workItem from="1701594992820" duration="5824000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1699428868678</created>
@@ -183,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701475673625</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Avancement fonction final, combinaison de tout les tab_sommet en 1 seul">
+      <created>1701596647882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701596647882</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +209,8 @@
     <MESSAGE value="Fin programme exclusions.h + quelque commentaires" />
     <MESSAGE value="FIn mise en commun" />
     <MESSAGE value="Mise en commun + modification de cycle_temp.h" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en commun + modification de cycle_temp.h" />
+    <MESSAGE value="Avancement fonction final, combinaison de tout les tab_sommet en 1 seul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avancement fonction final, combinaison de tout les tab_sommet en 1 seul" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

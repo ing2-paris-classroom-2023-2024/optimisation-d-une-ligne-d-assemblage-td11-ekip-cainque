@@ -1,7 +1,10 @@
-#ifndef LIGNE_ASSEMBLAGE_COMBINAISON_H
-#define LIGNE_ASSEMBLAGE_COMBINAISON_H
+#ifndef LIGNE_ASSEMBLAGE_PRECEDENCE_TEMPS_H
+#define LIGNE_ASSEMBLAGE_PRECEDENCE_TEMPS_H
+#include <stdio.h>
+#include <stdlib.h>
+#include "Graphe.h"
 
-Station* RepartirOp(Sommet * ops, int nombreOps, int* nbStations, float tempsCycle,int* priorite) {
+Station* Precedence_Temp(Sommet * ops, int nombreOps, int* nbStations, float tempsCycle,int* priorite) {
     Station* stations = malloc(sizeof(Station));
     if (stations == NULL) {
         perror("Erreur lors de l'allocation de mémoire pour les stations");
@@ -57,14 +60,4 @@ Station* RepartirOp(Sommet * ops, int nombreOps, int* nbStations, float tempsCyc
     return stations;
 }
 
-Sommet* CombineSommet(Sommet* Exclusions, Sommet* TempsCycle,int taille){
-    Sommet* tab_combine = malloc(sizeof(Sommet)*taille);
-    for(int i=0;i < taille;i++){
-        Sommet temp = Exclusions[TempsCycle[i].valeur];
-        temp.duree = TempsCycle[i].duree;
-        tab_combine[i] = temp;
-    }
-    return tab_combine;
-}
-
-#endif //LIGNE_ASSEMBLAGE_COMBINAISON_H
+#endif //LIGNE_ASSEMBLAGE_PRECEDENCE_TEMPS_H
