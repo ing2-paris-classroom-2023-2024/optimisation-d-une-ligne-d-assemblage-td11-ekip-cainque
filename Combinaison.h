@@ -12,6 +12,7 @@ Station* RepartirOp(Sommet * ops, int nombreOps, int* nbStations, float tempsCyc
     stations[0].tempsTotal = 0.0;
     stations[0].operations = NULL;
     stations[0].nbOperations = 0;
+    stations[0].color = 0;
 
     for (int i = 0; i < nombreOps; i++){
         Sommet Opactu;
@@ -28,8 +29,11 @@ Station* RepartirOp(Sommet * ops, int nombreOps, int* nbStations, float tempsCyc
                 indexMinTempsTotal = j;
             }
         }
+        if(stations[indexMinTempsTotal].color == NULL){
+            stations[indexMinTempsTotal].color = Opactu.color;
+        }
 
-        if (stations[indexMinTempsTotal].tempsTotal + Opactu.duree > tempsCycle) {
+        if ((stations[indexMinTempsTotal].tempsTotal + Opactu.duree > tempsCycle) || (stations[indexMinTempsTotal].color != Opactu.color)){
             (*nbStations)++;
             stations = realloc(stations, (*nbStations) * sizeof(Station));
             if (stations == NULL) {
@@ -41,6 +45,7 @@ Station* RepartirOp(Sommet * ops, int nombreOps, int* nbStations, float tempsCyc
             stations[*nbStations - 1].tempsTotal = 0.0;
             stations[*nbStations - 1].operations = NULL;
             stations[*nbStations - 1].nbOperations = 0;
+            stations[*nbStations - 1].color = NULL;
 
             continue;
         }

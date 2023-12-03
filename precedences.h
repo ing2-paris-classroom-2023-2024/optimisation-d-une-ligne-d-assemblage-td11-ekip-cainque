@@ -27,7 +27,6 @@ int* Precedences(char* filename){
 
     Sommet* Tab_Sommet = malloc(sizeof(Sommet)*nb_sommet);
     int tab = malloc((sizeof(int)*1));
-    printf("La liste de tous les sommets :\n|");
     for(i=0;i<nb_sommet;i++){
         int* tab_predecesseur = malloc((sizeof(int)*nb_sommet));
         for(j=0;j<nb_sommet;j++){
@@ -44,12 +43,8 @@ int* Precedences(char* filename){
                 Tab_Sommet[i]= temp;
             }
         }
-        if(temp.valeur!=0){
-            printf("%d|", temp.valeur);
-        }
         fseek(fichier,0,0);
     }
-    printf("\n");
 
     int cpt_sommet=0;
     for(i=0;i<nb_sommet;i++){
@@ -120,12 +115,6 @@ int* Precedences(char* filename){
                     cpt++;
                 }
             }
-        }
-    }
-    printf("Le tableau de priorite est :\n|");
-    for(i=0;i<nb_sommet;i++) {
-        if (priorite[i] != 0) {
-            printf("%d|", priorite[i]);
         }
     }
     return priorite;

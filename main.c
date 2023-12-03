@@ -1,10 +1,12 @@
 #include "stdio.h"
 #include "stdlib.h"
+#include "string.h"
 #include "Graphe.h"
 #include "exclusions.h"
 #include "precedences.h"
 #include "cycle_temp.h"
 #include "Combinaison.h"
+#include "Precedence_Temps.h"
 
 int main(){
     char* Duree_Max = "duree_max.txt";
@@ -25,6 +27,7 @@ int main(){
     //Recuperation de l'exclusion
     int taille, nbStations = 1;
     Sommet* Tab_Sommets_Ex  = exclusions(exclusion,&taille);
+    int taille_ex = taille;
     for(int i=0 ; i < taille-1; i++){
         for (int j=0 ; j < taille-i-1; j++){
             if (Tab_Sommets_Ex[j].valeur > Tab_Sommets_Ex[j+1].valeur){
@@ -51,13 +54,29 @@ int main(){
     Sommet* Tab_Sommets = malloc(sizeof(Sommet)*taille);
     Tab_Sommets = CombineSommet(Tab_Sommets_Ex,Tab_Sommets_temp,taille);
 
-
-    for(int i=0;i<taille;i++){
-        printf("\n%d, %f",Tab_Sommets[i].valeur,Tab_Sommets[i].duree);
+    int choix;
+    printf("\nQue voulez vous faire ?"
+           "\n1)Affichage de la couleur de chaque sommet(conditions d'exclusions)"
+           "\n2)Affichage des stations en fonction de la precedences et du temps(conditions de precedences et de temps)"
+           "\n3) Affichage selon les 3 conditions"
+           "\nChoix: ");
+    scanf("%d",&choix);
+    if(choix == 1){
+        for(int i=0;i<taille_ex;i++){
+            printf("\nSommet n:%d => Couleur: %d", Tab_Sommets_Ex[i].valeur,Tab_Sommets_Ex[i].color);
+        }
     }
-
-    Station* stations = RepartirOp(Tab_Sommets, taille, &nbStations, tempsCycle,Tab_precedences);
-    afficherResultats(stations, nbStations);
+    else if(choix == 2){
+        Station* stationsprec = Precedence_Temp(Tab_Sommets,taille,&nbStations,tempsCycle,Tab_precedences);
+        afficherResultats(stationsprec,nbStations);
+    }
+    else if(choix == 3){
+        Station* stations_trio = RepartirOp(Tab_Sommets,taille,&nbStations,tempsCycle,Tab_precedences);
+        afficherResultats(stations_trio,nbStations);
+    }
+    else{
+        printf("\nLe choix n'est pas valide.");
+    }
 
     return 0;
 }

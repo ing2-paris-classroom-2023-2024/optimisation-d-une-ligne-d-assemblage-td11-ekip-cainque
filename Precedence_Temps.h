@@ -56,7 +56,6 @@ Station* Precedence_Temp(Sommet * ops, int nombreOps, int* nbStations, float tem
         stations[indexMinTempsTotal].tempsTotal += Opactu.duree;
 
     }
-
     return stations;
 }
 
