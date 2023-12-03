@@ -1,6 +1,5 @@
 #include "stdio.h"
 #include "stdlib.h"
-#include "string.h"
 #include "Graphe.h"
 #include "exclusions.h"
 #include "precedences.h"
@@ -54,6 +53,7 @@ int main(){
     Sommet* Tab_Sommets = malloc(sizeof(Sommet)*taille);
     Tab_Sommets = CombineSommet(Tab_Sommets_Ex,Tab_Sommets_temp,taille);
 
+    //Demande de ce que l'utilisateur veut effectuer
     int choix;
     printf("\nQue voulez vous faire ?"
            "\n1)Affichage de la couleur de chaque sommet(conditions d'exclusions)"
@@ -61,16 +61,16 @@ int main(){
            "\n3) Affichage selon les 3 conditions"
            "\nChoix: ");
     scanf("%d",&choix);
-    if(choix == 1){
+    if(choix == 1){//Affichage de chaque sommet avec leur couleur selon Whelsh et Powell
         for(int i=0;i<taille_ex;i++){
             printf("\nSommet n:%d => Couleur: %d", Tab_Sommets_Ex[i].valeur,Tab_Sommets_Ex[i].color);
         }
     }
-    else if(choix == 2){
+    else if(choix == 2){//On effectue l'algorithme de precedences combiner a celui de temps
         Station* stationsprec = Precedence_Temp(Tab_Sommets,taille,&nbStations,tempsCycle,Tab_precedences);
         afficherResultats(stationsprec,nbStations);
     }
-    else if(choix == 3){
+    else if(choix == 3){//On combine les 3 algorithmes
         Station* stations_trio = RepartirOp(Tab_Sommets,taille,&nbStations,tempsCycle,Tab_precedences);
         afficherResultats(stations_trio,nbStations);
     }

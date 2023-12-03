@@ -15,20 +15,6 @@ typedef struct Sommet{
 
 }Sommet;
 
-typedef struct Arc{
-    int S1;
-    int S2;
-    float duree;
-}Arc;
-
-typedef struct Graphe{
-    int taille;
-    int ordre;
-    Arc* Liste_Arc;
-    float duree_tot;
-    float duree_max;
-}Graphe;
-
 typedef struct {
     int numStation;
     float tempsTotal;

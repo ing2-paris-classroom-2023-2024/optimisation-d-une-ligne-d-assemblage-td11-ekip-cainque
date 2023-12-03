@@ -17,15 +17,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Precedences_temps ensemble et avancement de la combinaison des 3">
+    <list default="true" id="fbcbab1b-2d5e-4a3b-a6a3-75bb0c7ad415" name="Changes" comment="Creation interface visuel pour un meilleur rendu et fin du projet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Combinaison.h" beforeDir="false" afterPath="$PROJECT_DIR$/Combinaison.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphe.h" beforeDir="false" afterPath="$PROJECT_DIR$/Graphe.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Precedence_Temps.h" beforeDir="false" afterPath="$PROJECT_DIR$/Precedence_Temps.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ligne_assemblage.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Ligne_assemblage.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Ligne_assemblage.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycle_temp.h" beforeDir="false" afterPath="$PROJECT_DIR$/cycle_temp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exclusions.h" beforeDir="false" afterPath="$PROJECT_DIR$/exclusions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/precedences.h" beforeDir="false" afterPath="$PROJECT_DIR$/precedences.h" afterDir="false" />
     </list>
@@ -56,17 +59,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/romar/projet_clion/RomaricB_MartinB_AlexisT_TD11_TP6&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/romar/projet_clion/RomaricB_MartinB_AlexisT_TD11_TP6",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\romar\CLionProjects\Clion Projects\Ligne_assemblage\cmake-build-debug" />
@@ -112,7 +116,7 @@
       <workItem from="1700553636350" duration="10483000" />
       <workItem from="1701519364868" duration="1108000" />
       <workItem from="1701542733179" duration="10600000" />
-      <workItem from="1701594992820" duration="9855000" />
+      <workItem from="1701594992820" duration="13454000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1699428868678</created>
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701614350681</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creation interface visuel pour un meilleur rendu et fin du projet">
+      <created>1701637110978</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701637110978</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,14 +229,15 @@
     <MESSAGE value="Mise en commun + modification de cycle_temp.h" />
     <MESSAGE value="Avancement fonction final, combinaison de tout les tab_sommet en 1 seul" />
     <MESSAGE value="Precedences_temps ensemble et avancement de la combinaison des 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Precedences_temps ensemble et avancement de la combinaison des 3" />
+    <MESSAGE value="Creation interface visuel pour un meilleur rendu et fin du projet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation interface visuel pour un meilleur rendu et fin du projet" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="op1" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/precedences.h" line="48">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/precedences.h" line="50">
         <watch expression="cpt_sommet" language="ObjectiveC" />
       </inline-watch>
     </watches-manager>
